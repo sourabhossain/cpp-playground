@@ -22,14 +22,16 @@
 #include <functional>
 #include <utility>
 
-using namespace std;
-
 #define BOOLEAN_PRINT cout << boolalpha;
 #define FASTER_RUN ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define IGNORE cin.ignore();
+#define PI acos(-1)
+
+
+using namespace std;
 
 int main()
 {
-    BOOLEAN_PRINT;
     FASTER_RUN;
 
     cout << "Hello! CPP Playground ~_~" << endl;
