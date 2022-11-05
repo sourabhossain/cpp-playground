@@ -25,15 +25,14 @@
 using namespace std;
 
 #define BOOLEAN_PRINT cout << boolalpha;
+#define FASTER_RUN ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
 int main()
 {
     BOOLEAN_PRINT;
-    vector<pair<int, bool>> v(4, {0, false});
+    FASTER_RUN;
 
-    for (auto item : v) {
-        cout << item.first << " " << item.second << endl;
-    }
+    cout << "Hello! CPP Playground ~_~" << endl;
 
     return 0;
 }
