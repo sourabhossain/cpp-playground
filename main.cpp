@@ -27,7 +27,6 @@
 #define IGNORE cin.ignore();
 #define PI acos(-1)
 
-
 using namespace std;
 
 int main()
